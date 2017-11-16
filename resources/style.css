@@ -8,7 +8,10 @@ header{
   margin:0px;
   border-bottom: 1px solid black;
   font-weight: bold;
+  top: 0;
 }
+
+
 
 h3{
   font-size: 16px;
@@ -21,9 +24,11 @@ h3{
   font-weight: bold;
   color: MediumAquamarine;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   width: 800px;
   padding-left: 50px;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -40,19 +45,22 @@ li{
 .funny
 {
   margin-top: 100px;
+
 }
 .column{
   border-style: solid;
   display: inline-flex;
+border-color: white;
 }
 .column.large {
   width: 630px;
   flex-direction:column;
+  border-color: white;
 }
 .large1{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   display: flex;
-
+border-color: white;
 }
 h1{
   font-family: Georgia;
@@ -80,22 +88,27 @@ p{
 }
 
 .large2{
-  border-style: solid;
+  border: solid white;
+  width: 200px;
 }
 .large3 h2{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  width: 200px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
 }
 
 
+
 .large5 h2{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  width: 200px;
 }
 .large4, .medium1, .medium2, .small1 {
-  border-style: solid;
+  border: solid white;
+
 }
 
 .small1{
