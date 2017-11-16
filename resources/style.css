@@ -31,7 +31,9 @@ h3{
   align-items: center;
 }
 
-
+.haha {
+  display:flex;
+}
 
 li{
   display: inline-flex;
